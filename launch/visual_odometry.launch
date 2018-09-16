@@ -1,0 +1,13 @@
+<launch>
+    <arg name="drone_frame_id" default="drone" />
+    <arg name="camera_topic" default="bottom_camera/image" />
+    <arg name="altitude_topic" default="mavros/global_position/rel_alt" />
+    <arg name="pose_topic" default="localization/visual_pose" />
+
+    <node pkg="drone_visual_odometry" type="drone_visual_odometry" name="visual_odometry" output="screen">
+        <param name="drone_frame_id" value="$(arg drone_frame_id)"/>
+        <param name="camera_topic" value="$(arg camera_topic)"/>
+        <param name="pose_topic" value="$(arg pose_topic)"/>
+        <param name="altitude_topic" value="$(arg altitude_topic)"/>
+    </node>
+</launch>

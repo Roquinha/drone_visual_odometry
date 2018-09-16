@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/roquinha/drone_visual_odometry/src/devel/setup.sh

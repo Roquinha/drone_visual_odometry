@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: drone_visual_odometry
+Description: Description of drone_visual_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/roquinha/drone_visual_odometry/src/devel
+
+Name: drone_visual_odometry
+Description: Description of drone_visual_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/roquinha/drone_visual_odometry/src/devel/lib 
+Requires: 
